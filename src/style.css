@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(98, 61, 12);
+    color: white;
+}
+
+#grid{
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+.mole{
+    background-color: aquamarine;
+    background-image: url('images/secer.jpg');
+    background-size: cover;
+}
+#score-section{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+#btn{
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(158, 49, 49);
+    border-radius: 5px;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(121, 47, 47);
+    color: white;
+}
